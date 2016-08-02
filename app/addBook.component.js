@@ -22,7 +22,7 @@
     app.component("addBook", {
         templateUrl: "app/addBook.component.html",
         controllerAs: "model",
-        controller: [ addBookController],
+        controller: [addBookController],
       require:{
           "parent":"^bookList"
       }
