@@ -1,0 +1,28 @@
+<form ng-submit="model.save()">
+<div class="popup">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td class="label">Title</td>
+                    <td>
+                        <input type="text" name="Title" ng-model="model.Title" required placeholder="Book title" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Author</td>
+                    <td>
+                        <input type="text" name="Author" ng-model="model.Author" required placeholder="Book author">
+                    </td>
+                </tr>
+          
+                <tr>
+                     <td colspan="2">
+                        <button type="button" ng-click="model.cancel()" class="button btn-cancel">Cancel</button>
+                        <button type="submit" class="button" >Save</button>
+                    </td>
+                   
+                </tr>
+            </tbody>
+        </table>
+<div>
+</form>

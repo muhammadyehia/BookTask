@@ -1,0 +1,11 @@
+{
+  "name": "book-task",
+  "version": "1.0.0",
+  "scripts": {
+	"start": "lite-server",
+	"postinstall": "npm install lite-server -g"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
