@@ -3,6 +3,9 @@
     var app = angular.module("bookApp");
     var addBookController = function () {
         var model = this;
+         model.$onInit = function () {
+             document.getElementById("bookTitle").focus();
+         };
         model.cancel=function () {
                model.parent.hideAddPopUp();
         };
